@@ -39,7 +39,7 @@ class Stack {
   peek() {
     const element = this.lastElement;
 
-    if (!element) {
+    if (element === null) {
       return null;
     }
 
